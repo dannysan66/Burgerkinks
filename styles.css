@@ -1,0 +1,438 @@
+a {
+  color: white !important;
+  font-size: 20px !important;
+  font-family: 'Bebas Neue', cursive;
+}
+
+a:hover {
+  color: darkgrey !important;
+  transition: all .05s;
+}
+
+i {
+  padding-right: 5px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+li {
+  color: white;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  animation: flicker 1.5s infinite alternate;
+}
+
+p {
+  font-size: 30px;
+}
+
+/* Footer Section content */
+footer {
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 100%);
+  color: white;
+  padding-bottom: 2px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.H2-location {
+  color: white;
+  font-size: 60px;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 17px;
+  margin-bottom: 1px;
+}
+
+.footer-brand{
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-brand:hover {
+  text-shadow: 0 0 40px #1F51FF;
+  filter: brightness(5);
+}
+
+
+.middle {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 600%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Neon Text */
+.neonText {
+  color: #fff;
+  font-size: 17vh;
+  transform: rotate(340deg);
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #FF3131,
+    0 0 82px #FF3131,
+    0 0 92px #FF3131,
+    0 0 102px #FF3131,
+    0 0 151px #FF3131;
+  filter: brightness(0.9);
+}
+
+/* Flickering animation */
+@keyframes flicker {
+  100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #FF3131,
+      0 0 80px #FF3131,
+      0 0 90px #FF3131,
+      0 0 100px #FF3131,
+      0 0 1050px #FF3131;
+  }
+
+  0% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #000000,
+      0 0 38px #FF3131,
+      0 0 73px #000000,
+      0 0 80px #FF3131,
+      0 0 94px #000000,
+      0 0 140px #FF3131;
+  }
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Neon text size change for mobile friendliness  */
+@media only screen and (max-width: 970px) {
+  .neonText {
+    font-size: 8vh;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .neonText {
+    font-size: 5vh;
+  }
+}
+
+/* Navbar */
+.navbar {
+  padding-bottom: 30px;
+}
+
+/* Navbar Brand Logo */
+.navbar-brand {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px !important;
+  padding-left: 10px;
+}
+
+.navbar-brand:hover {
+  text-shadow: 0 0 20px #1F51FF;
+  filter: brightness(2);
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  padding-right: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-link {
+    text-align: center;
+  }
+}
+
+/*Specials Section */
+#Specials {
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 100%);
+  padding-bottom: 10px;
+}
+
+.special-button {
+  height: 3.5rem;
+  width: 14rem;
+  background-color: #333;
+  color: #fff;
+  position: relative;
+  top: 1%;
+  left: 25%;
+  border-radius: 100px !important;
+  box-shadow: inset 0 0 0 0 yellow;
+  transition: ease-out 0.3s;
+}
+
+.special-button:hover {
+  color: #333;
+  box-shadow: inset 300px 0 0 0 yellow;
+}
+
+.special-description {
+  color: #EFEFEF;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.more {
+  display: none;
+}
+
+.card-container {
+  width: 95%;
+  margin: 7rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 40rem;
+  width: 30rem;
+  background-color: #F7F7F7 !important;
+  padding: 1rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 20px !important;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.card:hover {
+  transform: scale(.9);
+}
+
+.h4-cheeto {
+  font-size: 40px !important;
+  color: #DA0037;
+}
+
+.h4-donut {
+  font-size: 40px !important;
+  color: #DA0037;
+}
+
+.h4-zilla {
+  font-size: 40px !important;
+  color: #DA0037;
+}
+
+.img-specials {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.our-specials {
+  color: white;
+  padding-top: 30px;
+  font-size: 70px;
+}
+
+.our-specials span {
+  color: yellow;
+}
+
+/* Dessert Section */
+#Desserts {
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 100%);
+  padding-bottom: 100px;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+.box {
+  height: 20rem;
+  width: 25rem;
+  border-radius: .5rem;
+  margin: 2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 0.5rem #333;
+}
+
+.img-desserts {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .6);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  color: #fff;
+  opacity: 0;
+}
+
+.info:hover {
+  opacity: 1;
+}
+
+.info p {
+  font-size: 1.3rem;
+  border-bottom: .2rem solid yellow;
+  border-top: .2rem solid yellow;
+  margin: 1rem 2rem;
+}
+
+.desserts-title {
+  font-size: 3rem;
+}
+
+.dessert-button {
+  height: 4rem;
+  width: 9rem;
+  font-family: 'Oswald', sans-serif;
+  background: #F7F7F7;
+  color: black;
+  border-radius: 100px !important;
+  box-shadow: inset 0 0 0 0 yellow;
+  transition: ease-out 0.3s;
+}
+
+.dessert-button:hover {
+  color: #333;
+  box-shadow: inset 300px 0 0 0 yellow;
+}
+
+/*Location Section */
+#Location {
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 100%);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/* Contact Us Section */
+#Contact {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url('images/burger-contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-us {
+  color: yellow;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: 70px;
+}
+
+.contact-us span {
+  color: white;
+}
+
+form {
+  background: #EEEEEE;
+  padding-top: 2rem;
+  margin: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem #333;
+}
+
+.inputBox {
+  position: relative;
+  text-align: center;
+}
+
+input, textarea {
+  outline: none;
+  border: .2rem solid #333;
+  margin: 2rem 0 !important;
+  padding: 0 1rem;
+  background: none;
+  height: 4rem;
+  width: 90%;
+  font-size: 2rem !important;
+}
+
+textarea:focus~h5, :valid h5 {
+  font-size: 1.6rem;
+  left: 6%;
+  top: -.5rem;
+  color: #FF0075;
+}
+
+input:focus~h5, :valid h5 {
+  font-size: 1.6rem;
+  left: 6%;
+  top: -.5rem;
+  color: #FF0075;
+}
+
+textarea {
+  padding: 1rem;
+  resize: none;
+  height: 20rem;
+}
+
+h5 {
+  position: absolute;
+  top: 3rem;
+  left: 7%;
+}
+
+input[type="submit"] {
+  height: 4rem;
+  width: 12rem;
+  margin-bottom: 2rem !important;
+  margin-left: 4% !important;
+  background: #333;
+  color: #fff;
+  border-radius: 100px;
+}
+
+input[type="submit"]:hover {
+  color: #333;
+  background: yellow;
+}
+
+.row {
+  padding-bottom: 20px;
+}
